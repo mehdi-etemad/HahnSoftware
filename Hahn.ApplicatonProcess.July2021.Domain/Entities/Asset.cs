@@ -1,4 +1,4 @@
-﻿namespace Hahn.ApplicatonProcess.July2021.Data.Models
+﻿namespace Hahn.ApplicatonProcess.July2021.Domain.Entities;
 {
     public class Asset
     {
