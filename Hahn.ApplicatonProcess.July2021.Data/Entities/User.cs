@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace Hahn.ApplicatonProcess.July2021.Data.Models
+namespace Hahn.ApplicatonProcess.July2021.Data.Entities
 {
     public class User
     {

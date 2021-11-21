@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Hahn.ApplicatonProcess.July2021.Domain\Hahn.ApplicatonProcess.July2021.Domain.csproj" />
+    <ProjectReference Include="..\Hahn.ApplicatonProcess.July2021.WebAPI\Hahn.ApplicatonProcess.July2021.WebAPI.csproj" />
   </ItemGroup>
 
 </Project>

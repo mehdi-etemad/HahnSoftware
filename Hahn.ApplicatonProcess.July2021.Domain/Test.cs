@@ -1,5 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Data;
-using Hahn.ApplicatonProcess.July2021.Domain.Entities;
+using Hahn.ApplicatonProcess.July2021.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +14,10 @@ namespace Hahn.ApplicatonProcess.July2021.Domain
         public Test()
         {
             
+        }
+        public int AssetCount()
+        {
+            return UOW.Repository<Asset>().Select().Count();
         }
     }
 }
