@@ -6,6 +6,7 @@ namespace Hahn.ApplicatonProcess.July2021.Data
     {
         public DataBaseContext()
         {
+            Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
